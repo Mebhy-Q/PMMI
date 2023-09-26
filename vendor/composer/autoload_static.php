@@ -60,6 +60,10 @@ class ComposerStaticInitbc4fdb6b79593dcce85514f9e3726349
             'Psr\\Cache\\' => 10,
             'PhpParser\\' => 10,
         ),
+        'H' => 
+        array (
+            'Html2Text\\' => 10,
+        ),
         'D' => 
         array (
             'Doctrine\\SqlFormatter\\' => 22,
@@ -215,6 +219,11 @@ class ComposerStaticInitbc4fdb6b79593dcce85514f9e3726349
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Html2Text\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/html2text/html2text/src',
+            1 => __DIR__ . '/..' . '/html2text/html2text/test',
         ),
         'Doctrine\\SqlFormatter\\' => 
         array (
